@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Cadastro de usu&#225rio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
+	
+	<script>
+		function teste (x, event)
+		{
+			event.preventDefault();
+			$("#menuSup li").removeClass("active");
+			$(x).addClass("active");
+		}
+		
+		$(document).ready(function(){
+				$(".menuSup").click(function(){
+				$(".menuSup").removeClass("active");
+				$(this).addClass("active");
+			});
+		});
+				
+	</script>
+	
+	</head>
+	<body>
+
+		<div class="container-fluid">
+		
+			<div class="row-fluid">
+				<div class="span2">
+					<ul class="thumbnails">
+						<li class="span10">
+							<a href="#" class="thumbnail">
+								<img src="imagens/cofrinho.jpg" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+					
+				<div class="span10">
+					<div class="navbar-inner">
+						
+						<ul class="nav nav-pills" id="menuSup">
+							<li class="active menuSup">
+								<a href="#">Início</a>
+							</li>
+								
+							<li class="menuSup">
+								<a href="#">Link</a>
+							</li>
+								
+							<li class="menuSup">
+								<a href="#">Link</a>
+							</li>		
+						</ul>
+					</div>
+				</div>	
+			</div>
+		
+			<div class="row-fluid">
+				
+				<div class="span2">
+				
+					<div class="btn-group">
+						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display: block; position: static; margin-bottom: 5px; *width: 180px;">
+						  <li><a tabindex="-1" href="#">Ação</a></li>
+						  <li><a tabindex="-1" href="#">Outra ação</a></li>
+						  <li><a tabindex="-1" href="#">Algo a mais aqui</a></li>
+						  <li class="divider"></li>
+						  <li><a tabindex="-1" href="#">Link separador</a></li>
+						  <li class="dropdown-submenu">
+							<a tabindex="-1" href="#">Mais opções</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">aaaa</a></li>
+						  </li>
+						</ul>
+					</div>
+					
+				</div>
+				
+				<div class="span10">
+				
+					
+					  <h4>Cabeçalho</h1>
+					  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus odio ut lacus eleifend, vitae feugiat enim consequat. Pellentesque iaculis, dolor sed sollicitudin commodo, elit dui rutrum purus, non mollis ante mauris vel ante. Vivamus a consectetur urna, eget placerat est. Mauris scelerisque id urna in venenatis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum malesuada massa in leo lacinia, id vestibulum erat luctus. Suspendisse lorem diam, euismod euismod tempus nec, dignissim quis nisl. Fusce fermentum dui est, at consectetur justo dictum non. Mauris posuere, odio fringilla condimentum ultricies, odio dolor mollis arcu, laoreet venenatis mauris metus nec orci. Nunc volutpat scelerisque tristique. Cras convallis a sapien vel tempor. Donec non mauris purus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+					  <p>Nullam fringilla nisl eu urna accumsan euismod. Quisque id massa nec enim lobortis euismod. Praesent quis rutrum augue. Aliquam blandit orci quis rutrum egestas. Vivamus vitae cursus sapien. Vestibulum porttitor purus tortor. Fusce hendrerit porta nunc id semper. Nulla egestas, tellus nec dapibus suscipit, neque augue tristique justo, a iaculis felis orci quis tortor. Ut interdum tempor tellus, sit amet feugiat est posuere eu. Duis consequat massa erat, sit amet aliquet massa venenatis et. Duis in dui rhoncus, consequat nisl ac, posuere elit. Maecenas placerat sapien vel ante pharetra, ut ullamcorper sapien pulvinar.</p>
+					
+				</div>
+				
+			</div>
+
+		</div>
+		
+</body>
+</html>
