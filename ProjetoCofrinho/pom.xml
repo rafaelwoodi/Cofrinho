@@ -9,11 +9,6 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.11</version>
-		</dependency>
-		<dependency>
-			<groupId>org.jboss.spec.javax.servlet</groupId>
-			<artifactId>jboss-servlet-api_3.0_spec</artifactId>
-			<version>1.0.2.Final</version>
-	</dependency>        
+		</dependency>      
 </dependencies>
 </project>
