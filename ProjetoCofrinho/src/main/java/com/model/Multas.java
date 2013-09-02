@@ -1,6 +1,15 @@
-package com.classes;
+package com.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table (schema="cofrinho", name="multas")
 public class Multas {
+  @Id
+  @GeneratedValue
   private Integer codMulta;
   private Integer codTipoMulta;
   private double valor;
