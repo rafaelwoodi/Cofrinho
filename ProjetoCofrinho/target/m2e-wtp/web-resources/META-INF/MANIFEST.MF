@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Built-By: Jeferson A. Ghisio
-Build-Jdk: 1.7.0_25
+Built-By: Rafael Domingues
+Build-Jdk: 1.7.0_21
 Created-By: Maven Integration for Eclipse
 
